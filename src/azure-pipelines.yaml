@@ -41,7 +41,13 @@ steps:
     packagesToPack: '**/*.nuspec'
     versioningScheme: 'byBuildNumber'
     includeSymbols: true
-  
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'pdfsharp'
+    publishLocation: 'Container'
+
 - task: NuGetCommand@2
   displayName: NuGet push
   inputs:
