@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <package >
-  <metadata>
-    <id>Empira.PdfSharp.Wpf</id>
-    <version>$version$</version>
-    <title>Empira PdfSharp library for WPF</title>
-    <authors>Empira GmbH</authors>
-    <owners>empira</owners>
-    <license type="expression">MIT</license>
-    <projectUrl>https://github.com/DAVISOL-GmbH/PDFsharp</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/dracoon/dracoon-csharp-sdk/master/DracoonSdk/DracoonSdk_NugetImage.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The ...</description>
-    <copyright>Copyright empira GmbH, Copyright ©2021 DAVISOL GmbH</copyright>
-    <tags>empira pdf pdfsharp netframework wpf davisol</tags>
-    <releaseNotes>Enhanced fork of ...</releaseNotes>
-  </metadata>
-  <files>
-    <!-- .Net Framework 4.7.2 -->
-      <file src="bin\Release\Empira.PdfSharp.Wpf.dll" target="lib\net472\Empira.PdfSharp.Wpf.dll" />
-      <file src="bin\Release\Empira.PdfSharp.Wpf.xml" target="lib\net472\Empira.PdfSharp.Wpf.xml" />
-      <file src="bin\Release\de\Empira.PdfSharp.Wpf.resources.dll" target="lib\net472\de\Empira.PdfSharp.Wpf.resources.dll" />
-    <file src="bin\Release\Empira.PdfSharp.Wpf.pdb" target="lib\net472\Empira.PdfSharp.Wpf.pdb" />
-  </files>
+	<metadata>
+		<id>Empira.PdfSharp.Wpf</id>
+		<version>$version$</version>
+		<title>Empira PdfSharp library for WPF</title>
+		<authors>Empira GmbH</authors>
+		<owners>empira</owners>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/DAVISOL-GmbH/PDFsharp</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/dracoon/dracoon-csharp-sdk/master/DracoonSdk/DracoonSdk_NugetImage.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>The ...</description>
+		<copyright>Copyright empira GmbH, Copyright ©2021 DAVISOL GmbH</copyright>
+		<tags>empira pdf pdfsharp netframework wpf davisol</tags>
+		<releaseNotes>Enhanced fork of ...</releaseNotes>
+	</metadata>
+	<files>
+		<!-- .Net Framework 4.7.2 -->
+		<file src="bin\Release\Empira.PdfSharp.Wpf.dll" target="lib\net472\Empira.PdfSharp.Wpf.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Wpf.xml" target="lib\net472\Empira.PdfSharp.Wpf.xml" />
+		<file src="bin\Release\de\Empira.PdfSharp.Wpf.resources.dll" target="lib\net472\de\Empira.PdfSharp.Wpf.resources.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Wpf.pdb" target="lib\net472\Empira.PdfSharp.Wpf.pdb" />
+	</files>
 </package>

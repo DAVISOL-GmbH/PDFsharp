@@ -21,9 +21,9 @@
 		<file src="bin\Release\Empira.PdfSharp.Charting.Wpf.xml" target="lib\net472\Empira.PdfSharp.Charting.Wpf.xml" />
 		<file src="bin\Release\de\Empira.PdfSharp.Charting.Wpf.resources.dll" target="lib\net472\de\Empira.PdfSharp.Charting.Wpf.resources.dll" />
 		<file src="bin\Release\Empira.PdfSharp.Charting.Wpf.pdb" target="lib\net472\Empira.PdfSharp.Charting.Wpf.pdb" />
-		<file src="bin\Release\Empira.PdfSharp.dll" target="lib\net472\Empira.PdfSharp.dll" />
-		<file src="bin\Release\Empira.PdfSharp.xml" target="lib\net472\Empira.PdfSharp.xml" />
-		<file src="bin\Release\de\Empira.PdfSharp.resources.dll" target="lib\net472\de\Empira.PdfSharp.resources.dll" />
-		<file src="bin\Release\Empira.PdfSharp.pdb" target="lib\net472\Empira.PdfSharp.pdb" />
+		<file src="bin\Release\Empira.PdfSharp.Wpf.dll" target="lib\net472\Empira.PdfSharp.Wpf.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Wpf.xml" target="lib\net472\Empira.PdfSharp.Wpf.xml" />
+		<file src="bin\Release\de\Empira.PdfSharp.Wpf.resources.dll" target="lib\net472\de\Empira.PdfSharp.Wpf.resources.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Wpf.pdb" target="lib\net472\Empira.PdfSharp.Wpf.pdb" />
 	</files>
 </package>
