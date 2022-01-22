@@ -52,6 +52,7 @@ using System.Windows.Markup;
 [assembly: NeutralResourcesLanguage("en-US")]
 
 #if WPF
+[assembly: XmlnsPrefix("http://schemas.empira.com/pdfsharp/2010/xaml/presentation", "pdfsharp")]
 [assembly: XmlnsDefinition("http://schemas.empira.com/pdfsharp/2010/xaml/presentation", "PdfSharp.Windows")]
 #endif
 
