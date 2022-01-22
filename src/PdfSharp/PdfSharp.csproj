@@ -414,6 +414,7 @@
       <Generator>ResGen</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Messages.restext" />
+    <None Include="DavisolPackage.nuspec" />
     <None Include="StrongnameKey.snk" />
   </ItemGroup>
   <ItemGroup>

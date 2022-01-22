@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Empira.PdfSharp</id>
+    <version>$version$</version>
+    <title>Empira PdfSharp library</title>
+    <authors>Empira GmbH</authors>
+    <owners>empira</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/DAVISOL-GmbH/PDFsharp</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dracoon/dracoon-csharp-sdk/master/DracoonSdk/DracoonSdk_NugetImage.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The ...</description>
+    <copyright>Copyright empira GmbH, Copyright ©2021 DAVISOL GmbH</copyright>
+    <tags>empira pdf pdfsharp netframework davisol</tags>
+    <releaseNotes>Enhanced fork of ...</releaseNotes>
+  </metadata>
+  <files>
+    <!-- .Net Framework 4.7.2 -->
+    <file src="bin\Release\PdfSharp.dll" target="lib\net472\PdfSharp.dll" />
+    <file src="bin\Release\de\PdfSharp.resources.dll" target="lib\net472\de\PdfSharp.resources.dll" />
+    <file src="bin\Release\PdfSharp.pdb" target="lib\net472\PdfSharp.pdb" />
+  </files>
+</package>
