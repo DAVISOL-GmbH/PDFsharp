@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
 	<metadata>
-		<id>Empira.PdfSharp</id>
+		<id>Empira.PdfSharp.Charting</id>
 		<version>$version$</version>
-		<title>Empira PdfSharp library</title>
+		<title>Empira PdfSharp library - Charting component</title>
 		<authors>Empira GmbH</authors>
 		<owners>empira</owners>
 		<license type="expression">MIT</license>
@@ -12,11 +12,15 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>The ...</description>
 		<copyright>Copyright empira GmbH, Copyright ©2021 DAVISOL GmbH</copyright>
-		<tags>empira pdf pdfsharp netframework davisol</tags>
+		<tags>empira pdf pdfsharp charting netframework davisol</tags>
 		<releaseNotes>Enhanced fork of ...</releaseNotes>
 	</metadata>
 	<files>
 		<!-- .Net Framework 4.7.2 -->
+		<file src="bin\Release\Empira.PdfSharp.Charting.dll" target="lib\net472\Empira.PdfSharp.Charting.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Charting.xml" target="lib\net472\Empira.PdfSharp.Charting.xml" />
+		<file src="bin\Release\de\Empira.PdfSharp.Charting.resources.dll" target="lib\net472\de\Empira.PdfSharp.Charting.resources.dll" />
+		<file src="bin\Release\Empira.PdfSharp.Charting.pdb" target="lib\net472\Empira.PdfSharp.Charting.pdb" />
 		<file src="bin\Release\Empira.PdfSharp.dll" target="lib\net472\Empira.PdfSharp.dll" />
 		<file src="bin\Release\Empira.PdfSharp.xml" target="lib\net472\Empira.PdfSharp.xml" />
 		<file src="bin\Release\de\Empira.PdfSharp.resources.dll" target="lib\net472\de\Empira.PdfSharp.resources.dll" />
